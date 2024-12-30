@@ -1,0 +1,170 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: hsl(0, 0%, 94%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* h1 styling */
+h1 {
+    color: #ff6347;
+    margin-top: 20px;
+    font-size: 2.5em;
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* Container for posts */
+.posts-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    width: 100%;
+    padding: 20px;
+}
+
+/* .post styling */
+.post {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    animation: slideIn 1s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.user {
+    font-weight: bold;
+    font-style: italic;
+    color: #333;
+}
+
+/* .content styling */
+.content {
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Anchor tag for new post */
+.new-post {
+    display: inline-block;
+    margin: 20px 0;
+    padding: 10px 20px;
+    background-color: #ff6347;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.new-post:hover {
+    background-color: #e5533d;
+}
+
+/* Styling for all anchor tags */ */
+#ab {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    animation: slideIn 1s ease-in-out;
+  
+   
+}
+
+#ab:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+#a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    animation: slideIn 1s ease-in-out;
+    background-color: #007BFF;
+    border-radius: 4px;
+    padding: 10px 20px;
+
+   
+}
+#a:hover {
+    color: #fff;
+    background-color: #0056b3;
+
+} 
+
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+p {
+    color: #333;
+}
+
+#h2 {
+    color: #ff6347;
+    margin-top: 20px;
+    font-size: 2.5em;
+    animation: fadeIn 2s ease-in-out;
+}
+#p {
+    color: #333;
+    line-height: 1.6;
+}
+.btns {
+    display:flex;
+    margin-top: 20px;
+    gap: 20px;
+    align-items: center;
+}
+.btns button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button:hover {
+    background-color: #0056b3;
+
+}
+
+#special {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+    
+}
+#special:hover {
+    background-color: #0056b3;
+}
