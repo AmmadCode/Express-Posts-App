@@ -16,9 +16,12 @@ This is a simple Express.js application for managing posts. Users can create, ed
 - EJS (Embedded JavaScript templates)
 - UUID (for generating unique IDs)
 - Method-Override (for supporting PUT and DELETE methods in forms)
+<<<<<<< Updated upstream
 
 ## Installation
 
 1. Clone the repository:
    ```sh
    git clone https://github.com/AmmadCode/Express-Posts-App.git
+=======
+>>>>>>> Stashed changes
