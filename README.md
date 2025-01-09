@@ -1,13 +1,14 @@
 # Express Posts App
 
-This is a simple Express.js application for managing posts. Users can create, edit, and delete posts.
+This is a simple Express.js application for managing posts. Users can create, edit, and delete posts with images.
 
 ## Features
 
-- Create new posts
+- Create new posts with images
 - Edit existing posts
 - Delete posts
 - View all posts
+- View individual post details
 
 ## Technologies Used
 
@@ -16,6 +17,7 @@ This is a simple Express.js application for managing posts. Users can create, ed
 - EJS (Embedded JavaScript templates)
 - UUID (for generating unique IDs)
 - Method-Override (for supporting PUT and DELETE methods in forms)
+- Multer (for handling file uploads)
 <<<<<<< Updated upstream
 
 ## Installation

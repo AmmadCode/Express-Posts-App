@@ -7,13 +7,15 @@
     <link rel="stylesheet" href="/form.css"> 
 </head>
 <body>
-    <form method="post" action="/posts">
+    <form action="/posts" method="POST" enctype="multipart/form-data">
         <div class="container">
             <h1>Create New Post</h1>
             <label for="user">User</label>
             <input type="text" id="user" name="user" placeholder="Enter your username">
             <label for="content">Content</label>
             <textarea rows="10" cols="30" id="content" name="content" placeholder="Enter your post content"></textarea>
+            <label for="image">Upload Image</label>
+            <input type="file" id="image" name="image">
             <button type="submit">Create Post</button>
         </div>
 
