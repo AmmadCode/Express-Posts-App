@@ -1,4 +1,4 @@
-const fs = require('fs');
+const fs = require('fs-extra')
 const express = require('express');
 const app = express();
 const port = 8080;
